@@ -1,0 +1,13 @@
+body, html{
+    height: 100%;
+}
+body {
+    background-image: url("image.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.background-image {
+    filter: blur(8px);
+    -webkit-filter: blur(8px);
+}

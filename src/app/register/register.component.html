@@ -1,0 +1,13 @@
+<div class="register">
+    <form method="POST" (submit)="registerCheck($event)">
+      <h1>Rejestracja</h1>
+      <br><input type="text" placeholder="Imię" name="name" required>
+      <br><input type="text" placeholder="Nazwisko" name="surname" required> 
+      <br><input type="text" placeholder="Login" name="login" required>
+      <br><input type="password" placeholder="Hasło" name="password" required>
+      <br><input type="password" placeholder="Powtórz Hasło" name="password2" required>
+      <br><input type="email" placeholder="Adres Email" name="email" required>
+      <p>Masz już konto? <a routerLink="/login">Zaloguj się</a></p>
+      <br> <input type="submit" value="Zarejestruj">
+    </form>
+    </div>
